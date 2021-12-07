@@ -1,0 +1,24 @@
+[package]
+name = "advent_of_code_2021"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "01"
+path = "src/01/main.rs"
+
+[[bin]]
+name = "02"
+path = "src/02/main.rs"
+
+[[bin]]
+name = "03"
+path = "src/03/main.rs"
+
+[lib]
+name = "shared_lib"
+path = "src/shared/lib.rs"
